@@ -1,0 +1,15 @@
+media:
+  input: src/media
+  output: /media
+  rename: random
+  categories: [image]
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: docs
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
