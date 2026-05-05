@@ -1,8 +1,6 @@
 media:
   input: src/media
   output: /media
-  rename: random
-  categories: [image]
 content:
   - name: pages
     label: Pages
