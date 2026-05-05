@@ -5,7 +5,7 @@ content:
   - name: pages
     label: Pages
     type: collection
-    path: src/blog
+    path: docs
     fields:
       - name: title
         type: string
