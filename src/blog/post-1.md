@@ -1,24 +1,17 @@
 ---
 title: My First Blog Post
-author: Astro Learner
-description: "I had some challenges, but asking in the community really helped!"
-image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 2022-07-15
-tags: ["astro", "setbacks", "community"]
 ---
-Welcome to my *new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
+TESTING TESTING Welcome to my *new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
 title: My First Blog Post
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
+    url: "[https://docs.astro.build/assets/rays.webp](https://docs.astro.build/assets/rays.webp)"
     alt: "The Astro logo on a dark background with rainbow rays."
 pubDate: 2022-07-15
 tags: ["astro", "learning in public", "setbacks", "community"]
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to my *new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
 
 ## What I've accomplished
 
