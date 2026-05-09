@@ -1,7 +1,7 @@
 ---
 title: My First Blog Post
 ---
-Welcome to my *new new new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
+Welcome to my *new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
 
 ## What I've accomplished
 
