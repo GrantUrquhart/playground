@@ -1,5 +1,8 @@
 ---
 title: My First Blog Post
+---
+Welcome to my *new blog* about learning Astro! Here, I will share my learning journey as I build a new website.
+title: My First Blog Post
 author: Astro Learner
 description: "I had some challenges, but asking in the community really helped!"
 image:
