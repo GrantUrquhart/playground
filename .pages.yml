@@ -24,7 +24,7 @@ content:
 
       - name: image
         label: Featured Image
-        type: image
+        type: string
 
       - name: pubDate
         label: Publish Date
