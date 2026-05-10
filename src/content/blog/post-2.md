@@ -2,7 +2,7 @@
 title: My Second Blog Post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
-image: "../../media/pallbearers.png"
+image: ../../assets/images/pallbearers.png
 pubDate: 2022-07-08
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
