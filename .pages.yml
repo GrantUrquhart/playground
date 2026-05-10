@@ -24,15 +24,7 @@ content:
 
       - name: image
         label: Featured Image
-        type: object
-        fields:
-          - name: url
-            label: Image URL
-            type: string
-
-          - name: alt
-            label: Alt Text
-            type: string
+        type: image
 
       - name: pubDate
         label: Publish Date
