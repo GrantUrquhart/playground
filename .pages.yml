@@ -2,12 +2,48 @@ media:
   input: src/media
   output: /media
 content:
-  - name: pages
-    label: Pages
+  - name: blog
+    label: Blog Posts
     type: collection
-    path: src/blog
+    path: src/content/blog
+    filename: '{primary}.md'
+    view:
+      fields: [title, pubDate, author]
     fields:
       - name: title
+        label: Title
         type: string
+        required: true
+
+      - name: author
+        label: Author
+        type: string
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: image
+        label: Featured Image
+        type: object
+        fields:
+          - name: url
+            label: Image URL
+            type: string
+
+          - name: alt
+            label: Alt Text
+            type: string
+
+      - name: pubDate
+        label: Publish Date
+        type: date
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+
       - name: body
+        label: Content
         type: rich-text
