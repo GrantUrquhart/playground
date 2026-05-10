@@ -1,5 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content';
+import { Image } from "astro:assets";
 import MarkdownPostLayout from '../../layouts/MarkdownPostLayout.astro';
 
 export async function getStaticPaths() {
@@ -14,5 +15,10 @@ const { Content } = await render(post);
 ---
 
 <MarkdownPostLayout frontmatter={post.data}>
+  <Image
+        src={post.data.image}
+        alt={`Cover poster for ${post.data.title}`}
+        class="w-full h-auto rounded-xl shadow-md object-cover"
+      />
   <Content />
 </MarkdownPostLayout>
