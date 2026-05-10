@@ -6,7 +6,6 @@ content:
     label: Blog Posts
     type: collection
     path: src/content/blog
-    filename: '{primary}.md'
     view:
       fields: [title, pubDate, author]
     fields:
