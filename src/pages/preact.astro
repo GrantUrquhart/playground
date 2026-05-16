@@ -1,0 +1,11 @@
+---
+// src/pages/estimator.astro
+import RepairEstimator from '../components/RepairEstimator.jsx';
+---
+
+<layout>
+  <main class="py-10">
+    <!-- client:load ensures the Javascript runs immediately on page load -->
+    <RepairEstimator client:load />
+  </main>
+</layout>
